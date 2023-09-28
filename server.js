@@ -1,7 +1,7 @@
 //imports packages
 const express = require("express");
 const dotenv = require("dotenv").config();
-const connectDb = require("./config/db");
+// const connectDb = require("./config/db");
 //create the app
 const app = express();
 const PORT = process.env.PORT || 5000;
