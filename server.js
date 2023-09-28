@@ -4,7 +4,7 @@ const dotenv = require("dotenv").config();
 const connectDb = require("./config/db");
 //create the app
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 //access the static file
 app.use(express.static("public"));
 app.use("controller", express.static("controller/weatherController.js"));
